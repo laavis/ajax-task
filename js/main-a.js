@@ -1,7 +1,7 @@
 // Create function 'showImages' which
 // adds the loaded HTML content to <ul> element
 
-const images = 'https://raw.githubusercontent.com/ilkkamtk/BCW2/master/images.html';
+const images = 'https://raw.githubusercontent.com/laavis/ajax-task/master/images.html';
 
 const showImages = () => {
   fetch(images)
