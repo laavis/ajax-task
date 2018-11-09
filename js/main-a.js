@@ -1,8 +1,10 @@
 // Create function 'showImages' which
 // adds the loaded HTML content to <ul> element
 
+const images = 'https://raw.githubusercontent.com/ilkkamtk/BCW2/master/images.html';
+
 const showImages = () => {
-  fetch('/images.html')
+  fetch(images)
     .then((response) => response.text())
     .then((html) => {
       const images = document.querySelector('#images');
