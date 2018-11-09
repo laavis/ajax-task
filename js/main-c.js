@@ -42,7 +42,7 @@ const showImages = () => {
         title.innerHTML = image.mediaTitle;
         p.innerHTML = 'Oh boy I do love photos';
         p2.innerHTML = "Can't believe I'm doing this";
-        a.setAttribute('href', `img/original/${image.mediaURL}`);
+        a.setAttribute('href', `img/original/${image.mediaUrl}`);
         img.setAttribute('src', `img/thumbs/${image.mediaThumb}`);
         
         figcaption.appendChild(title);

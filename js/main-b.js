@@ -15,7 +15,7 @@ const showImages = () => {
       json.forEach((img) => {
         const markup = `<li>
                   <figure>
-                    <a href="img/original/${img.mediaURL}"><img src="img/thumbs/${img.mediaThumb}"></a>
+                    <a href="img/original/${img.mediaUrl}"><img src="img/thumbs/${img.mediaThumb}"></a>
                     <figcaption>
                       <h3>${img.mediaTitle}</h3>
                       <div>
